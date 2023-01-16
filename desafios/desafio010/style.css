@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: #83e1ad
+    ;
+}
+header{
+    background-color:#2fa866 ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient( #3ddc84,#1b8b4e);
+    border-radius: 10px 10px solid;
+}
+
+nav{
+    color: white;
+    background-color:#1b8b4e ;
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+main{
+    background-color: white;
+    border-radius: 50px;
+}
+
+article> h1, h2{
+    text-align: center;
+}
+
+aside#video{
+    background-color:#1b8b4e ;
+}
+
+footer{
+    text-align: center;
+    background-color: #1b8b4e;
+    color: white;
+    border-radius: 20px 20px solid #1b8b4e;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
