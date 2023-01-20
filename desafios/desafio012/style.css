@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+header {
+    background-color: black;
+    padding: 50px;
+    margin: -10px ;
+    
+}
+
+header h1  {
+    color: white;
+    text-align: center;
+    
+}
+
+header p  {
+    color: white;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-align: center;
+}
