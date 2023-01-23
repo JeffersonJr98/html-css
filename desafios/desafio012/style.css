@@ -1,48 +1,70 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(47, 79, 79, 0.637);
+}
+
 
 header {
     background-color: black;
-    padding:20px ;
-    margin: -10px ;
+    text-align: center;
+    color: white;
+}
+
+header > h1  {
+    padding-top: 40px;
+    font-variant: small-caps;
+    
     
 }
 
-header h1  {
-    color: white;
-    text-align: center;
-    font-size: ;
+header > p  {
+    padding-bottom: 40px;
     
 }
 
-header p  {
+header a, footer a {
     color: white;
-    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
-header a {
-    color: white;
-    text-align: center;
-    
+header a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
-section#imagen {
-    background-image: url('imagens/background001.jpg');
-    background-position:center ;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    width: 1200px;
-    height: 600px;
+section {
+    padding-top: 10vh ;
+    padding-bottom: 10vh ;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkturquoise;
     color: white;
 }
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.199);
+    width: 400px;
+}
+
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
-    margin: -5px;
-    
+    padding: 10px;
 }
